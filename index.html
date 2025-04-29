@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<tittle>Redes RJLP</tittle>
+</head>
+<body>
+<body background="images/f1.jpg" text="blue">
+
+	<h1 align="center">Redes de Computadoras</h1>
+	<ul>
+		<li>Definición de redes</li>
+		<li><a href="#tipos">Tipos de redes</a></li>
+		<li><a href="#topo">Topologias de redes</a></li>
+		<li><a href="#med">Medios de transmisión</a></li>
+		<li><a href="#med">Dispositivos de interconexión</a></li>
+		<li><a href="#med">Modelo OSI</a></li>
+	</ul>
+	<table width="80%" align="center" border="1">
+		<tr>
+			<td><img src="images/red2.png" width="200">
+				
+			</td>
+	<td><p align="justify">¿Qué es una red de ordenadores? <br>
+Una red de ordenadores se refiere a dispositivos de computación interconectados que pueden intercambiar datos y compartir recursos entre sí. Los dispositivos de la red utilizan un sistema de reglas, llamados protocolos de comunicaciones, para transmitir información a través de tecnologías físicas o inalámbricas.</p></td>
+</table>
+<a name="tipos"></a>
+<center><h2>Tipos de redes</h2></center>
+<center><a href="https://redcomputadora.wordpress.com/2016/06/30/tipos-de-redes-segun-el-tamano/" tarjet="new"><img src="images/tiposredes.jpg" width="200"></a></center>
+
+<table width="80%" align="center" border="1">
+	<tr>
+	<td><img src="images/lan.png" width="200"></td>
+ 	<td><p align="justify"><h3>Red de área local (LAN)</h3>
+	Conecta computadoras que están relativamente cerca, como en un edificio de oficinas o un hospital 
+	Suelen ser de propiedad y gestión privada 
+	Utilizan conexiones locales, como cables Ethernet y puntos de acceso inalámbricos</p></td>
+
+<tr>
+<td><img src="images/man.jpeg" width="200"></td>
+<td><p align="justify"><h3>Red de área metropolitana (MAN)</h3>
+Son más grandes que las LAN pero más pequeñas que las WAN
+Suelen ser propiedad y gestión de ciudades y entidades de gobierno</p></td>
+
+<tr>
+<td><img src="images/wan.png" width="200"></td>
+<td><p align="justify"><h3><h3>Red de área amplia (WAN)</h3>
+Conecta computadoras a través de grandes áreas geográficas, como regiones y continentes 
+Suelen tener modelos de propiedad colectiva o distribuida 
+Utilizan conexiones de área amplia, como MPLS, VPN, líneas arrendadas y la nube</p></td>
+
+<tr>
+<td><img src="images/pan.jpeg" width="200"></td>
+<td><p align="justify"><h3>Red de área personal (PAN)</h3>
+Conecta dispositivos personales de una persona, como un teléfono inteligente y una computadora, para compartir contenido. Son las redes más pequeñas y sencillas.</p></td>
+
+<tr>
+<td><img src="images/san.jpeg" width="200"></td>
+<td><p align="justify"><h3>Red de área de almacenamiento (SAN)</h3>
+Una red de área de almacenamiento (SAN) es una red de alta velocidad que conecta servidores y dispositivos de almacenamiento. Se utiliza para aplicaciones que requieren un alto rendimiento y baja latencia.</p></td>
+
+<tr>
+<td><img src="images/gan.jpeg" width="200"></td>
+<td><p align="justify"><h3>Red generativa antagónica (GAN)</h3>
+Una red generativa antagónica (GAN) es un modelo de aprendizaje automático que genera datos nuevos y realistas. Se compone de dos redes neuronales que compiten entre sí. 
+
+<tr>
+<td><img src="images/vpn.png" width="200"></td>
+<td><p align="justify"><h3>Red privada virtual (VPN)</h3>
+Una VPN, o Red Privada Virtual, es una tecnología que crea una conexión segura y encriptada entre tu dispositivo y internet, ocultando tu dirección IP y ubicación, y permitiendo navegar de forma más segura y privada. 
+</tr>
+</table>
+
+<center><h2>Topologias de redes</h2></center>
+<a name="topo"></a>
+<center><a href="https://fernandoarciniega.com/que-son-las-topologias-de-red/#google_vignette" tarjet="new"><img src="images/topo.jpg" width="200"></a></center>
+
+<table width="80%" align="center" border="1">
+	<tr>
+	<td><img src="images/bus.png" width="200"></td>
+ 	<td><p align="justify"><h3>Topologia en bus</h3>
+	En esta topología, todos los dispositivos están conectados a un único cable central, denominado "bus". Los datos viajan a lo largo de este cable y pueden ser recibidos por cualquier dispositivo conectado, aunque solo el destinatario específico los procesa. Es simple y económica, pero su rendimiento disminuye con el aumento de dispositivos, ya que todos comparten el mismo canal de comunicación.</p></td>
+
+<tr>
+<td><img src="images/estrella.png" width="200"></td>
+<td><p align="justify"><h3>Topologia en estrella</h3>
+En la topología en estrella, todos los dispositivos se conectan a un nodo central, que suele ser un switch o un hub. La comunicación entre dispositivos pasa a través de este nodo. Esta topología es fácil de instalar y gestionar, y ofrece una buena aislación de fallos, ya que si un dispositivo falla, solo se ve afectada esa conexión, pero el resto de la red sigue operando.
+
+<tr>
+<td><img src="images/anillo.png" width="200"></td>
+<td><p align="justify"><h3>Topologia en anillo</h3>
+En la topología en anillo, los dispositivos están conectados de forma circular, creando un "anillo". Los datos se envían en una dirección específica a lo largo del anillo hasta llegar a su destino. Si un dispositivo o cable se desconecta, toda la red puede verse afectada, aunque algunas variantes como el anillo doble pueden mejorar la fiabilidad.
+
+<tr>
+<td><img src="images/malla.png" width="200"></td>
+<td><p align="justify"><h3>Topologia en malla</h3>
+En una topología en malla, cada dispositivo está directamente conectado con todos los demás dispositivos de la red. Esto proporciona una gran redundancia y fiabilidad, ya que si un enlace falla, siempre hay rutas alternativas. Sin embargo, es costosa y compleja de instalar debido a la cantidad de conexiones necesarias.
+
+<tr>
+<td><img src="images/arbol.png" width="200"></td>
+<td><p align="justify"><h3>Topologia en árbol</h3>
+La topología en árbol es una combinación de la topología en estrella y la topología en bus. Los dispositivos están conectados en una jerarquía de nodos, donde los nodos centrales actúan como concentradores, y de estos se derivan otros nodos que conectan a dispositivos finales. Es útil para redes grandes y escalables, pero la falla en un nodo central puede afectar a varios dispositivos.
+<tr>
+<td><img src="images/mp.png" width="200"></td>
+<td><p align="justify"><h3>Topologia en malla parcial</h3>
+Es una variación de la topología en malla, donde no todos los dispositivos están directamente conectados entre sí, pero existen múltiples caminos alternativos. Esto reduce los costos de instalación en comparación con la malla completa, mientras mantiene una redundancia razonable.
+
+<tr>
+<td><img src="images/hibrida.jpeg" width="200"></td>
+<td><p align="justify"><h3>Topologia híbrida</h3>
+La topología híbrida combina dos o más de las topologías anteriores. Se utiliza para adaptarse mejor a redes grandes y complejas, donde se requiere flexibilidad y diferentes soluciones para distintas áreas de la red. Es costosa y difícil de gestionar, pero proporciona alta eficiencia y confiabilidad.
+</tr>
+</table>
+
+<a name="med"></a>
+<center><h2>Medios de Transmisión</h2></center>
+<center><a href="https://sobretodoredes.wordpress.com/redes-cableadas/elementos-de-una-red/medios-de-transmision/" tarjet="new"><img src="images/met.jpg" width="200"></a></center>
+
+<center><h3>Medios de Transmisión Alámbricos</h3></center>
+<table width="80%" align="center" border="1">
+<center><a href="https://www.goconqr.com/mapamental/5848726/medios-de-transmision-alambrica" tarjet="new"><img src="images/mta.jpg" width="200"></a></center>
+
+	<tr>
+	<td><img src="images/cpt.jpeg" width="200"></td>
+ 	<td><p align="justify"><h3>Cable de par trenzado</h3>
+	 El cable de par trenzado es uno de los medios de transmisión más comunes en redes locales (LAN). Consiste en dos conductores de cobre trenzados entre sí para reducir la interferencia electromagnética. Existen dos tipos principales: el UTP (Unshielded Twisted Pair), sin blindaje, y el STP (Shielded Twisted Pair), que tiene un blindaje para reducir las interferencias. Es económico, fácil de instalar y adecuado para distancias cortas y medianas.</p></td>
+
+<tr>
+<td><img src="images/cc.jpeg" width="200"></td>
+<td><p align="justify"><h3>Cable coaxial</h3>
+El cable coaxial está formado por un conductor central rodeado por un aislamiento, una malla conductora y una capa exterior de protección. Es más robusto que el par trenzado y ofrece una mayor resistencia a las interferencias. Aunque fue muy popular en redes Ethernet antiguas, hoy en día se utiliza más para la transmisión de televisión por cable o en aplicaciones de alta frecuencia.
+
+<tr>
+<td><img src="images/fo.jpeg" width="200"></td>
+<td><p align="justify"><h3>Fibra Óptica</h3>
+La fibra óptica transmite datos a través de pulsos de luz. Está formada por hilos de vidrio o plástico que permiten la transmisión de señales a muy alta velocidad y sobre distancias mucho mayores que los cables de cobre. Es inmune a las interferencias electromagnéticas y ofrece gran capacidad de ancho de banda, pero es costosa y más difícil de instalar.
+<ol>
+	<li>Fibra Monomodo:La fibra monomodo es un tipo de fibra óptica que transmite un solo rayo de luz por su núcleo. Se utiliza para transportar señales a largas distancias con baja pérdida de señal. </li>
+	<li>Fibra Multimodo:La fibra óptica multimodo es un tipo de cable que permite transmitir datos a distancias cortas, como en edificios o campus. Se utiliza en redes de área local (LAN) y centros de datos. </li>
+</ol>
+</tr>
+</table>
+
+<center><h3>Medios de Transmisión Inalámbricos</h3></center>
+<table width="80%" align="center" border="1">
+<center><a href="https://www.goconqr.com/mapamental/5104638/medios-de-transmision-inalambricos-y-su-utilazacion" tarjet="new"><img src="images/mti.jpg" width="200"></a></center>
+
+	<tr>
+	<td><img src="images/rf.jpeg" width="200"></td>
+ 	<td><p align="justify"><h3>Radiofrecuencia</h3>
+	  Las redes inalámbricas basadas en radiofrecuencia (RF) utilizan ondas de radio para transmitir datos. Estas redes son muy comunes en aplicaciones como Wi-Fi, Bluetooth y redes móviles. Ofrecen gran flexibilidad, pero pueden verse afectadas por interferencias y limitadas en cuanto a la cobertura y el ancho de banda dependiendo de la tecnología utilizada.</p></td>
+
+<tr>
+<td><img src="images/micro.png" width="200"></td>
+<td><p align="justify"><h3>Microondas</h3>
+Las transmisiones por microondas utilizan ondas electromagnéticas de alta frecuencia para enviar información. Son ideales para enlaces de larga distancia y se utilizan en comunicaciones de punto a punto, como las que se encuentran en conexiones de telecomunicaciones entre torres. Sin embargo, requieren una línea de vista directa y pueden ser afectadas por condiciones meteorológicas, como lluvias intensas.
+
+<tr>
+<td><img src="images/if.jpeg" width="200"></td>
+<td><p align="justify"><h3>Infrarrojos</h3>
+La transmisión por infrarrojos utiliza luz infrarroja para enviar señales entre dispositivos. Este medio se usa principalmente para conexiones de corto alcance, como en controles remotos y conexiones punto a punto entre dispositivos cercanos. Aunque tiene una buena capacidad de transmisión, su alcance es limitado y requiere una línea de visión directa.
+
+<tr>
+<td><img src="images/sat.jpeg" width="200"></td>
+<td><p align="justify"><h3>Satélites</h3>
+Las comunicaciones satelitales utilizan estaciones de radiofrecuencia y satélites en órbita para transmitir señales de datos. Son ideales para áreas geográficas amplias o de difícil acceso, donde no se pueden establecer conexiones físicas. Las transmisiones satelitales pueden ser afectadas por la latencia y condiciones atmosféricas, pero ofrecen cobertura global.
+
+<tr>
+<td><img src="images/om.jpeg" width="200"></td>
+<td><p align="justify"><h3>Ondas milimétricas</h3>
+Las ondas milimétricas son ondas electromagnéticas de muy alta frecuencia que se utilizan en tecnologías como 5G para ofrecer grandes capacidades de ancho de banda. Se emplean en enlaces de alta velocidad y en redes móviles avanzadas, pero su alcance es limitado y pueden ser bloqueadas por obstáculos como paredes y edificios.
+
+<tr>
+<td><img src="images/blu.png" width="200"></td>
+<td><p align="justify"><h3>Bluetooth</h3>
+La tecnología Bluetooth conecta las PCs y los dispositivos móviles a los periféricos como los auriculares, teclados, ratones y controles para gaming inalámbricos. Los dispositivos Bluetooth se comunican mediante transmisiones de radio de corto alcance en el rango de frecuencia de 2,4 GHz.
+
+<tr>
+<td><img src="images/wifi.jpeg" width="200"></td>
+<td><p align="justify"><h3>Wi-Fi</h3>
+"Wifi" es una tecnología de comunicación inalámbrica que permite a dispositivos electrónicos conectarse a una red, a menudo para acceder a internet, utilizando ondas de radio.
+</tr>
+</table> 
+
+<a name="med"></a>
+<center><h2>Dispositivos de interconexión</h2></center>
+<center><a href="https://www.voiped.com/es/blog/elementos-de-interconexion-de-redes-que-son-y-tipos/" tarjet="new"><img src="images/inter.jpeg" width="200"></a></center>
+
+<table width="80%" align="center" border="1">
+<tr>
+<td><img src="images/hub.jpeg" width="200"></td>
+<td><p align="justify"><h3>Hub (Concentrador)</h3>
+Un hub es un dispositivo simple que conecta varios dispositivos de red en un único segmento de red. Cuando un dispositivo transmite datos, el hub los envía a todos los dispositivos conectados, sin discriminar. Esto puede causar colisiones de datos, lo que afecta el rendimiento de la red. Los hubs operan en la capa física del modelo OSI y, aunque son poco eficientes comparados con dispositivos más modernos, aún se encuentran en algunas redes pequeñas o antiguas.
+
+<tr>
+<td><img src="images/switch.jpeg" width="200"></td>
+<td><p align="justify"><h3>Switch (Conmutador)</h3>
+ El switch es un dispositivo más avanzado que el hub. Opera en la capa de enlace de datos y es capaz de identificar las direcciones MAC de los dispositivos conectados. Cuando un dispositivo envía datos, el switch los dirige únicamente al dispositivo de destino, lo que mejora la eficiencia y reduce las colisiones. Los switches son fundamentales en redes de alto rendimiento y son capaces de manejar grandes volúmenes de tráfico de datos sin afectar el rendimiento global de la red.
+
+<tr>
+<td><img src="images/router.jpeg" width="200"></td>
+<td><p align="justify"><h3>Router (Enrutador)</h3>
+ El router es un dispositivo crucial en redes que conectan diferentes subredes o redes completas, como una red local (LAN) con una red de área amplia (WAN), como Internet. Un router opera en la capa de red del modelo OSI y se encarga de enrutar los paquetes de datos entre diferentes redes. Utiliza direcciones IP para determinar la mejor ruta para que los datos lleguen a su destino. Los routers permiten la comunicación entre redes diferentes y realizan funciones de seguridad como el filtrado de tráfico y la asignación de direcciones IP.
+
+<tr>
+<td><img src="images/bridge.jpeg" width="200"></td>
+<td><p align="justify"><h3>Bridge (Puente)</h3>
+ Un bridge se utiliza para conectar dos segmentos de red dentro de una misma red local (LAN). Este dispositivo opera en la capa de enlace de datos y ayuda a segmentar redes para mejorar el rendimiento y reducir la congestión. Un puente filtra el tráfico y envía solo los datos necesarios a cada segmento de la red, lo que optimiza el uso del ancho de banda. Los bridges también pueden ser utilizados para dividir una red grande en subredes más pequeñas.
+
+<tr>
+<td><img src="images/gateway.jpeg" width="200"></td>
+<td><p align="justify"><h3>Gateway (Puerta de enlace)</h3>
+ Un gateway es un dispositivo que permite la comunicación entre redes que utilizan diferentes protocolos. Funciona como un "puente" entre redes que no pueden comunicarse directamente debido a diferencias en sus protocolos de comunicación. Los gateways operan generalmente en capas más altas del modelo OSI (como la capa de aplicación) y pueden realizar funciones complejas como la traducción de direcciones de red (NAT), control de tráfico y seguridad.
+
+<tr>
+<td><img src="images/access.png" width="200"></td>
+<td><p align="justify"><h3>Access Point (Punto de acceso)</h3>
+ Un punto de acceso es un dispositivo que conecta dispositivos inalámbricos a una red cableada. Estos dispositivos operan en la capa de enlace de datos y permiten la transmisión de datos a través de Wi-Fi. Los puntos de acceso son fundamentales en redes Wi-Fi, proporcionando acceso a internet o a otras redes locales a dispositivos como smartphones, laptops y tablets.
+
+<tr>
+<td><img src="images/modem.jpeg" width="200"></td>
+<td><p align="justify"><h3>Modem</h3>
+ Un modem (modulador-demodulador) es un dispositivo que permite la conexión de una red local (LAN) a Internet a través de una línea telefónica, cable o fibra óptica. Los módems transforman las señales digitales de la computadora en señales analógicas que pueden viajar a través de una línea telefónica y viceversa. Aunque muchos modem modernos integran funciones de router, su función principal es la conversión de señales para la transmisión de datos.
+</tr>
+</table>
+
+<a name="med"></a>
+<center><h2>Modelo OSI</h2></center>
+<center><a href="https://www.hostingtg.com/blog/modelo-osi/" tarjet="new"><img src="images/osi.jpeg" width="200"></a></center>
+
+<table width="80%" align="center" border="1">
+<tr>
+<td><img src="images/fisi.jpg" width="200"></td>
+<td><p align="justify"><h3>Física</h3>
+ Capa 1 - Física: Transmite bits a través de un medio físico, como cables o señales de radio (ej. cables, conectores, señales eléctricas).
+
+<tr>
+<td><img src="images/enla.jpeg" width="200"></td>
+<td><p align="justify"><h3>Enlace de datos</h3>
+ Capa 2 - Enlace de datos: Asegura una transferencia libre de errores entre dos nodos conectados directamente (ej. Ethernet, MAC).
+
+<tr>
+<td><img src="images/redm.jpg" width="200"></td>
+<td><p align="justify"><h3>Red</h3>
+Capa 3 - Red: Encargada del direccionamiento y enrutamiento de paquetes (ej. IP).
+
+<tr>
+<td><img src="images/trans.jpeg" width="200"></td>
+<td><p align="justify"><h3>Transporte</h3>
+Capa 4 - Transporte: Garantiza la entrega completa de los datos, con control de errores y segmentación (ej. TCP, UDP).
+
+<tr>
+<td><img src="images/ses.jpeg" width="200"></td>
+<td><p align="justify"><h3>Sesión</h3>
+Capa 5 - Sesión: Gestiona y controla el diálogo (conexiones) entre dos dispositivos (establece, mantiene y finaliza sesiones).
+
+<tr>
+<td><img src="images/pres.jpg" width="200"></td>
+<td><p align="justify"><h3>Presentación</h3>
+Capa 6 - Presentación: Traduce, cifra y comprime los datos (por ejemplo, convierte datos entre diferentes formatos como texto plano a HTML).
+
+<tr>
+<td><img src="images/apli.jpg" width="200"></td>
+<td><p align="justify"><h3>Aplicación</h3>
+Capa 7 - Aplicación: Proporciona servicios de red directamente a las aplicaciones del usuario (como correo electrónico, navegación web, FTP).
+</tr>
+</table>
+
+<h4 align="right">Elaborado por <a href="https://sites.google.com/view/ramirolpez3j/p%C3%A1gina-principal" tarjet="new">Ramiro López</a></h4>
+<h4 align="right">Youtube: <a href="https://www.youtube.com/@omegaxd5284/videos" tarjet="new">Omega xd</a></h4>
+<h4 align="right">Instagram: <a href="https://www.instagram.com/omegaxd2/?hl=es" tarjet="new">omegaxd2</a></h4>
+	</body>
+</html>
